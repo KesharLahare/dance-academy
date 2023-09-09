@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 24px;
+}
+
+#logo img{
+    height: 48px;
+    filter: invert(1);
+    margin-right: 13px;
+}
+
+#navbar {
+    background-color: rgb(12, 10, 90);
+    padding: 14px 4px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 5px 45px;
+    color: rgb(235, 211, 179);
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: rgb(220, 181, 130);
+}
+
+#introSection {
+    background: center/cover no-repeat url("/static/bg.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    height: 400px;
+    padding-bottom: 170px;
+    background-color: rgb(91, 154, 209);
+}
+
+#introSection div{
+    margin: 20px 114px;
+    font-size: 19px;
+}
+
+#introSection div p{
+    text-align: center;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+#missionSection h1{
+    text-align: center;
+    padding-top: 23px;
+}
+
+.card{
+    display: inline-block;
+    background-color: #f9ebf5;
+    width: 30%;
+    height: 187px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 29px 18px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img{
+    height: 125px;
+    margin: 13px 5px;
+    padding: 3px 11px;
+}
+
+#sponsorsSection {
+    height: 251px;
+    background-color: #f5eaec;
+    font-family: 'Bree Serif', serif;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-weight: bold;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 90%;
+    margin: 34px;
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}

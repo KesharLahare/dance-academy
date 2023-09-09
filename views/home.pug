@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    
+    section#introSection 
+        h2 Welcome to Banku's Dance Academy
+        div 
+            p The overall environment of a dance studio is key to your child's success. 
+            p The dance studio should be warm and inviting, as well as the staff. 
+            p The studio should be clean and well- maintained. 
+            p The dancing room should be well-ventilated and spacious, with mirrors covering at least one entire wall.
+        h2 Eat Dance Sleep Repeat
+
+    section#missionSection 
+        h1 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")  
+                
+                div.card-content
+                    p Perfection is an abstract idea that everyone wants to achieve.
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")  
+                
+                div.card-content
+                    p Hand in hand, on the edge of the sand, they danced by the light of the moon.
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")  
+                
+                div.card-content
+                    p  Expert teaching style strives to maintain status as an expert among students by displaying detailed knowledge.
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/img/logo1.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo5.png", alt="Sponsor Image", Class="spImage")
